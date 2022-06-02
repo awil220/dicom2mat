@@ -2,6 +2,8 @@ function dicom2mat
 
 % This function opens each dicom file in the selected folder and saves it
 % as a matlab matrix file.
+% Alexander Wilson, PhD
+% Stanford University, 2022
 
 selpath = uigetdir
 list=dir([selpath '/*.dcm']);
